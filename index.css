@@ -1,0 +1,158 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/*Entire Page*/
+*{
+    background-color: #0A0919;
+}
+
+
+/* Nav*/
+
+.nav{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+Font-family: Raleway;
+margin:50px;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color:white;
+border-bottom: 4px solid #FF6584;
+border-width: 25%;
+
+
+
+}
+.nav a{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    margin-left:247px;
+    margin-top: 200px;
+    margin-bottom: 103px;
+ 
+}
+
+.hero h1{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 70px;
+color:white;
+margin-bottom: 17px;
+}
+
+.hero p{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+color: #FFFFFF;
+}
+
+/* Row 1 of team*/
+.rowpics{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:90px;
+margin-right: 90px;
+margin-bottom:50px;
+    
+}
+.rowpics img{
+width: 240px;
+height: 240px;
+border-radius: 10px;
+}
+.names{
+display:flex;
+flex-direction: row;
+align-items: center;
+color:white;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+margin-top:10px;
+}
+
+.footer{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: white;
+
+
+
+}
+.footer img{
+width: 91px;
+height: 79px;
+background-color: #FFFFFF;
+margin-top:30px;
+margin-bottom: 30px;
+}
+.footer{
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+color:#0A0919;
+text-align: center;
+}
+
+#happy{
+    background-color: white;
+    margin-right: 30px;
+}
+i{
+    margin-left:0px;
+    margin-right: 10px;
+}
+@media(max-width:500px){
+    .row1{
+        display:flex;
+        flex-direction: column;
+    }
+}
