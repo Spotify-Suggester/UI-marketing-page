@@ -21,9 +21,21 @@ vertical-align: baseline;
 }
 
 /*Entire Page*/
+
+
+.sidebardecor{
+position: absolute;
+width: 43px;
+height: 2079px;
+left: 46px;
+top: 0px;
+background: #FFFFFF;
+}
 *{
     background-color: #0A0919;
 }
+
+
 
 
 /* Nav*/
@@ -32,33 +44,71 @@ vertical-align: baseline;
 display:flex;
 flex-direction: row;
 justify-content: space-between;
+align-items: center;
 Font-family: Raleway;
-margin:50px;
+margin:100px;
 font-style: normal;
-font-weight: bold;
+font-weight: 600;
 font-size: 24px;
 line-height: 28px;
 color:white;
-border-bottom: 4px solid #FF6584;
+
 border-width: 25%;
 
 
 
 }
-.nav a{
+
+.horizontalbar1{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 146px;
+top: 160px;
+border: 2px solid #FF6584;
+}
+
+.horizontalbar2{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 182px;
+top: 172px;
+border: 2px solid #FF6584;
+}
+.horizontalbar3{
+border: 2px solid #FF6584;
+position: absolute;
+width: 341px;
+height: 0px;
+left: 218px;
+top: 184px;
+}
+
+.links, a{
 display:flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-around;
+align-items: center;
+padding:5px;
+margin-left: 20px;
+margin-right:10px;
+margin-top:0px;
 font-family: Open Sans;
 font-style: normal;
-font-weight: 600;
-font-size: 24px;
+font-weight: 500;
+font-size: 21px;
 line-height: 33px;
 color: #FFFFFF;
 text-decoration: none;
-
 }
 
+.verticalbar{
+    border-right: 4px solid #FF6584;
+
+ padding-right:30px;
+
+}
 .hero{
     display:flex;
     flex-direction: column;
@@ -109,7 +159,7 @@ align-items: center;
 color:white;
 font-family: Open Sans;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 18px;
 line-height: 20px;
 margin-top:10px;
