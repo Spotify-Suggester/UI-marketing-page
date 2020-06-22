@@ -1,0 +1,344 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/*Entire Page*/
+
+
+.sidebardecor{
+position: absolute;
+width: 40px;
+height: 2079px;
+left: 46px;
+top: 0px;
+background: #FFFFFF;
+}
+*{
+    background-color: #0A0919;
+}
+
+/* Nav*/
+
+.nav{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+Font-family: Raleway;
+margin:100px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+color:white;
+border-width: 25%;
+}
+
+.horizontalbar1{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 146px;
+top: 160px;
+border: 2px solid #FF6584;
+}
+
+.horizontalbar2{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 182px;
+top: 172px;
+border: 2px solid #FF6584;
+}
+
+.horizontalbar3{
+border: 2px solid #FF6584;
+position: absolute;
+width: 341px;
+height: 0px;
+left: 218px;
+top: 184px;
+}
+
+.links, a{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding:5px;
+margin-left: 20px;
+margin-right:10px;
+margin-top:0px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 33px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.verticalbar{
+border-right: 4px solid #FF6584;
+padding-right:30px;
+}
+
+.hero{
+display:flex;
+flex-direction: column;
+margin-left:247px;
+margin-top: 200px;
+margin-bottom: 103px;
+}
+
+.hero h1{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 70px;
+color:white;
+margin-bottom: 17px;
+}
+
+.hero p{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+color: #FFFFFF;
+}
+
+/* Row 1 of team*/
+.rowpics{
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-left:90px;
+margin-right: 90px;
+margin-bottom:50px;
+    
+}
+.rowpics img{
+width: 240px;
+height: 240px;
+border-radius: 10px;
+}
+
+.names{
+display:flex;
+flex-direction: row;
+align-items: center;
+color:white;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+margin-top:10px;
+}
+
+.footer{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: white;
+}
+
+.footer img{
+width: 91px;
+height: 79px;
+background-color: #FFFFFF;
+margin-top:30px;
+margin-bottom: 30px;
+}
+
+.footer{
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+color:#0A0919;
+text-align: center;
+}
+
+#happy{
+background-color: white;
+margin-right: 30px;
+}
+
+i{
+margin-left:0px;
+margin-right: 10px;
+}
+
+@media(max-width:500px){
+    *{
+    background-color:white;
+    }
+    .mobileName{
+        color: #6C63FF;
+    }
+   
+.horizontalbar1Mobile{
+    width: 341px;
+    height: 0px;
+    left: 20px;
+    top: 123px;
+    border: 2px solid #FF6584;
+}
+.horizontalbar1{
+    display:none;
+}
+.horizontalbar2{
+    display:none;
+
+}
+.horizontalbar2Mobile{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 56px;
+top: 139px;
+border: 4px solid #FF6584;
+transform: rotate(0.17deg);  
+}
+
+.horizontalbar3{
+    display:none;
+}
+.horizontalbar3Mobile{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 92px;
+top: 159px;
+
+border: 4px solid #FF6584;
+
+}
+
+
+    .nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        Font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0F0E26;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 20px;
+        }
+        .links, a{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding:5px;
+            margin-left: 20px;
+            margin-right:10px;
+            margin-top:0px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 33px;
+            color: #0F0E26;
+            text-decoration: none;
+            }
+            #mobileA{
+                display:none;
+            }
+            .hero{
+                display:flex;
+                flex-direction: column;
+                margin-left:15px;
+                margin-top: 100px;
+                margin-bottom: 50px;
+                }
+                
+                .hero h1{
+                
+                line-height: 70px;
+                color:#0F0E26;
+                margin-bottom: 17px;
+                }
+                
+                .hero p{
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 41px;
+                color: #0F0E26;
+                }
+    .sidebardecor{
+        display:none;
+    }
+    .rowpics{
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    }
+
+    .rowpics img{
+    width: 500px;
+    height: 500px;
+    border-radius: 0;
+    margin:0px;
+    }
+
+.names{
+    color:#0F0E26;
+    margin-left:10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size:20px;
+}
+    
+ 
+
+    }
+    #fakepic{
+    display:none;
+    }
+  
+.footer{
+    background-color:#0F0E26;
+    color:white;
+    font-size: 18px;
+
+}
+.footer img{
+    background-color:#0F0E26;
+}
+#happy{
+    background-color:#0F0E26;  
+}
