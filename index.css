@@ -126,17 +126,15 @@ video {
   line-height: 100px;
   color: white;
   margin-left: 100px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .heroMain h2 {
   font-weight: 500;
   margin-top: 20px;
 }
 .heroImg {
-  position: absolute;
-  left: 700px;
-  top: 500px;
-  margin-right: 100px;
+  width: auto;
+  margin-left: 375px;
 }
 .horizontalbar1 {
   position: absolute;
@@ -178,7 +176,7 @@ a {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 33px;
   color: #ffffff;
   text-decoration: none;
@@ -193,7 +191,7 @@ a {
   display: flex;
   flex-direction: column;
   margin-left: 247px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 103px;
 }
 
@@ -286,6 +284,7 @@ button {
   line-height: 35px;
   color: #0a0919;
   text-align: center;
+  margin-top: 200px;
 }
 
 #happy {
@@ -314,7 +313,45 @@ i {
   border: none;
   margin-top: 50px;
 }
-
+.button:hover {
+  background-color: #ff6584;
+  color: white;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Raleway;
+  padding: 50px;
+  color: #0a0919;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 100px;
+}
+.para1 {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 24px;
+  padding: 10px;
+}
+.para2 {
+  margin-left: 25px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.whitebox {
+  background-color: #f8f8ff;
+  width: 303px;
+  height: 257px;
+  border-radius: 10px;
+}
+.number {
+  color: #6c63ff;
+  margin-left: 35px;
+  margin-top: 30px;
+  font-size: 32px;
+}
 @keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff6584,
@@ -325,6 +362,23 @@ i {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff6584, 0 0 40px #ff4da6,
       0 0 50px #ff6584, 0 0 60px #ff6584, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+.detailsH2 {
+  display: flex;
+  flex-direction: row;
+  font-family: Raleway;
+  font-size: 70px;
+  color: white;
+  margin-left: 50px;
+  padding-top: 5%;
+}
+.bottom {
+  background-color: black;
+}
+.bottom img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
 }
 
 @media (max-width: 500px) {
@@ -388,7 +442,7 @@ i {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 33px;
     color: #0f0e26;
     text-decoration: none;
@@ -404,14 +458,6 @@ i {
   .heroMain img {
     display: flex;
     flex-direction: column;
-  }
-  .heroImg {
-    position: absolute;
-    top: 600px;
-    margin-right: 100px;
-    left: 0px;
-    width: 400px;
-    height: auto;
   }
 
   .hero {
@@ -450,7 +496,7 @@ i {
   }
 
   .rowpics img {
-    width: 500px;
+    width: 100%;
     height: 500px;
     border-radius: 0;
     margin: 0px;
@@ -474,6 +520,11 @@ i {
     background-color: #0f0e26;
     color: white;
     font-size: 18px;
+    margin-top: 75px;
+  }
+  .footerhome {
+    margin-top: 0px;
+    background-color: #0f0e26;
   }
   .footer img {
     background-color: #0f0e26;
@@ -576,5 +627,54 @@ i {
   }
   .picPosition {
     position: relative;
+  }
+  .heroImg {
+    margin-top: 75px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .button {
+    margin-left: 10px;
+  }
+  .details {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    font-family: Raleway;
+    padding: 30px;
+    align-items: center;
+  }
+  .detailsH2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+
+  .details {
+    display: flex;
+    font-size: 26px;
+    text-align: left;
+  }
+  .para1 {
+    font-size: 24px;
+    color: black;
+  }
+  .para2 {
+    font-size: 20px;
+    color: black;
+  }
+  .whitebox {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .button:hover {
+    background-color: #ff6584;
+    color: white;
   }
 }
