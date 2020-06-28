@@ -118,6 +118,15 @@ video {
   color: white;
   border-width: 25%;
 }
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.nav img {
+  width: 35px;
+  height: auto;
+  margin-left: 15px;
+}
 .heroMain {
   font-family: Raleway;
   font-style: normal;
@@ -676,5 +685,10 @@ i {
   .button:hover {
     background-color: #ff6584;
     color: white;
+  }
+  .nav img {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
   }
 }
